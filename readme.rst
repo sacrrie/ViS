@@ -1,24 +1,25 @@
-Caret
+ViS: Vi Slowed/jS
 =====
+ViS as in Vi Slowed(kidding :-]) written in Java*S*cript.
+ViS is a lightweight-but-powerful programmer's editor running as a Chrome
+Packaged App. Inspired by Caret and built on top of it and Ace editor's editing
+component, it offers(as of now it should be AIMING FOR):
 
-Caret is a lightweight-but-powerful programmer's editor running as a Chrome
-Packaged App. Inspired by Sublime and built on top of the Ace editing
-component, it offers:
+-  lighter weight than the original
+-  full Vim command support
+-  compatible with .vimrc file and .vim plugin file
+-  able to run as a standalone application on multiple platform
+-  passing on the torch of vim.js since it has been archived
+-  more to come...
 
--  multiple cursors
--  tabbed editing and retained files
--  syntax highlighting and themes
--  command palette/smart go to
--  hackable, synchronized configuration files
--  project files and folder view
--  fast project-wide string search
-
-More information, links to Caret in the Chrome Web Store, and an
+This project would also reference other vim related repos on Github, they would be properly cited and referenced.
+More information on the original Caret app(highly recommended, I love it), links to Caret in the Chrome Web Store, and an
 external package file are available at http://thomaswilburn.net/caret.
 Documentation can be found in the
 `wiki <https://github.com/thomaswilburn/Caret/wiki>`_.
 
-You can also load Caret from source code, either to hack around on or
+
+You can also load the app from source code, either to hack around on or
 to try the absolute bleeding edge. You'll need to have Node and NPM
 installed first, then follow these steps:
 
@@ -31,7 +32,3 @@ installed first, then follow these steps:
 4. Still on the extensions page, click the button marked "Load unpacked
    extension..." and select the directory containing Caret's
    manifest.json.
-
-If you use Caret and would like to show your appreciation, please
-consider donating to the `FSF's Fund to End Software
-Patents <https://my.fsf.org/civicrm/contribute/transact?reset=1&id=17>`__.
